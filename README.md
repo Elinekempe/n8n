@@ -27,6 +27,7 @@ Kopieer de Bot Token.
 Zorg ervoor dat de bot de juiste permissies heeft (zoals "Rollen beheren" en "Berichten sturen").
 
 Hoe werkt het?
+
 Trigger → De workflow wordt gestart via een geplande trigger die elke minuut draait.
 Gebruikers ophalen → De bot haalt de lijst op van alle gebruikers met een specifieke rol in de server.
 Rol toewijzen → De bot voegt een extra rol toe aan deze gebruikers.
@@ -35,6 +36,7 @@ Bevestigingsbericht sturen → De bot stuurt een melding naar een kanaal of de g
 
 
 Hoe ziet de workflow eruit?
+
 Schedule Trigger → Start automatisch elke minuut.
 Get Members (Discord node) → Haalt de lijst op van leden met een specifieke rol.
 Check if we have an ID (IF-node) → Controleert of een ID aanwezig is.
